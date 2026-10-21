@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600" width="1600" height="1600" preserveAspectRatio="xMidYMid slice">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E9EBEE"/></radialGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F1DFA8"/><stop offset=".45" stop-color="#C9A961"/><stop offset="1" stop-color="#8C6F2E"/></linearGradient>
+<linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FAFAFB"/><stop offset=".5" stop-color="#B9BDC4"/><stop offset="1" stop-color="#6E737B"/></linearGradient>
+<linearGradient id="rose" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F4D9CC"/><stop offset=".5" stop-color="#D2A38C"/><stop offset="1" stop-color="#97705C"/></linearGradient>
+<radialGradient id="dial" cx="40%" cy="35%" r="75%"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E2DED6"/></radialGradient>
+<radialGradient id="dialdark" cx="40%" cy="35%" r="75%"><stop offset="0" stop-color="#4A5260"/><stop offset="1" stop-color="#1D222B"/></radialGradient>
+<radialGradient id="shadow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#000" stop-opacity=".22"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+<filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
+</defs>
+<rect width="1600" height="1600" fill="url(#bg)"/>
+
+<ellipse cx="800" cy="1370" rx="430" ry="70" fill="url(#shadow)"/>
+<circle cx="800" cy="900" r="400" fill="none" stroke="url(#steel)" stroke-width="74"/>
+<circle cx="800" cy="900" r="364" fill="none" stroke="#000" stroke-opacity=".12" stroke-width="3"/>
+<circle cx="800" cy="900" r="436" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="3"/>
+<path d="M 520 1150 A 400 400 0 0 0 1080 1150" fill="none" stroke="#000" stroke-opacity=".10" stroke-width="22" filter="url(#soft)"/>
+
+<rect x="680" y="380" width="240" height="160" rx="26" fill="#2E8B75" stroke="#1B5E4E" stroke-width="5"/>
+<rect x="715" y="405" width="170" height="110" rx="14" fill="none" stroke="#9FE0CB" stroke-width="4" opacity=".8"/>
+<path d="M 680 380 L 780 380 L 680 460 Z" fill="#fff" opacity=".28"/>
+
+</svg>

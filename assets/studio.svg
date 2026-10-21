@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1800" width="1600" height="1800" preserveAspectRatio="xMidYMid slice">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%" r="75%"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#ECE7DD"/></radialGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F1DFA8"/><stop offset=".45" stop-color="#C9A961"/><stop offset="1" stop-color="#8C6F2E"/></linearGradient>
+<linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FAFAFB"/><stop offset=".5" stop-color="#B9BDC4"/><stop offset="1" stop-color="#6E737B"/></linearGradient>
+<linearGradient id="rose" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F4D9CC"/><stop offset=".5" stop-color="#D2A38C"/><stop offset="1" stop-color="#97705C"/></linearGradient>
+<radialGradient id="dial" cx="40%" cy="35%" r="75%"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E2DED6"/></radialGradient>
+<radialGradient id="dialdark" cx="40%" cy="35%" r="75%"><stop offset="0" stop-color="#4A5260"/><stop offset="1" stop-color="#1D222B"/></radialGradient>
+<radialGradient id="shadow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#000" stop-opacity=".22"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+<filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
+</defs>
+<rect width="1600" height="1800" fill="url(#bg)"/>
+
+<rect width="1600" height="1800" fill="url(#bg)"/>
+<rect y="1180" width="1600" height="620" fill="#E3DDD2"/>
+<rect y="1180" width="1600" height="6" fill="#fff" opacity=".7"/>
+<ellipse cx="800" cy="1230" rx="620" ry="60" fill="url(#shadow)"/>
+<!-- window light -->
+<rect x="140" y="140" width="520" height="760" fill="#fff" opacity=".85"/>
+<g stroke="#D8D3C8" stroke-width="8"><line x1="400" y1="140" x2="400" y2="900"/><line x1="140" y1="520" x2="660" y2="520"/></g>
+<path d="M 140 900 L 660 900 L 1100 1180 L 300 1180 Z" fill="#fff" opacity=".35"/>
+<!-- workbench -->
+<rect x="200" y="1040" width="1200" height="60" fill="url(#rose)"/>
+<rect x="240" y="1100" width="40" height="320" fill="#97705C"/><rect x="1320" y="1100" width="40" height="320" fill="#97705C"/>
+<!-- loupe lamp -->
+<path d="M 1180 1040 L 1180 560 Q 1180 480 1100 480 L 900 480" fill="none" stroke="url(#steel)" stroke-width="22" stroke-linecap="round"/>
+<path d="M 840 480 L 960 480 L 930 560 L 870 560 Z" fill="url(#steel)"/>
+<path d="M 870 560 L 700 1040 L 1100 1040 L 930 560 Z" fill="#FFF6D8" opacity=".35"/>
+<!-- movement under the lamp -->
+<circle cx="800" cy="990" r="86" fill="url(#gold)"/><circle cx="800" cy="990" r="60" fill="url(#dial)"/>
+<circle cx="800" cy="990" r="12" fill="url(#gold)"/>
+<g fill="url(#steel)"><circle cx="560" cy="1010" r="34"/><circle cx="1040" cy="1010" r="28"/></g>
+<!-- tool rack -->
+<rect x="760" y="180" width="660" height="30" rx="8" fill="url(#rose)"/>
+<g stroke="url(#steel)" stroke-width="14" stroke-linecap="round">
+<line x1="820" y1="210" x2="820" y2="420"/><line x1="900" y1="210" x2="900" y2="360"/><line x1="980" y1="210" x2="980" y2="440"/>
+<line x1="1060" y1="210" x2="1060" y2="380"/><line x1="1140" y1="210" x2="1140" y2="410"/><line x1="1220" y1="210" x2="1220" y2="350"/>
+</g>
+<g fill="#4A3426"><rect x="808" y="420" width="24" height="60" rx="8"/><rect x="968" y="440" width="24" height="60" rx="8"/><rect x="1128" y="410" width="24" height="60" rx="8"/></g>
+
+</svg>
